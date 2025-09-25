@@ -1,0 +1,52 @@
+.form {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+  background: var(--bg-card);
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.input {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.dateInput {
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.addBtn {
+  background: var(--accent);
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cancelBtn {
+  background: transparent;
+  color: var(--text-secondary);
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+}
